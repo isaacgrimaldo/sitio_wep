@@ -1,0 +1,72 @@
+
+
+html{
+    font-size: 10px;
+    font-family:'Josefin Sans', sans-serif; ;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  p,
+  li {
+    font-size: 16px;    
+    line-height: 1.5;     /*ancho de la linea*/
+    letter-spacing: .85px;/*espacio entre palabras*/
+  }
+ 
+   /*
+ 
+       *relleno(padding), el espacio alrededor del contenido (ej: alrededor del texto de un párrafo)
+
+        *marco(border), la línea que se encuentra fuera del relleno
+        *margen(margin), el espacio fuera del elemento que lo separa de los demá
+
+       * width (ancho del elemento)
+
+       * background-color, el color de fondo del contenido y del relleno
+        
+       *color, el color del contenido del elemento (generalmente texto)
+        
+       *text-shadow: coloca una sombra difuminada en el texto dentro del elemento
+        
+       *display: selecciona el modo de visualización para el elemento (no te preocupes de esto por ahora)
+       
+    */
+
+  html{
+    background-color: #387DA8 ;
+  }
+
+  body{
+    width: 800px;
+    height: auto;
+    margin: 30px auto;
+    background-color:#EA811F ;
+    padding: 0 20px 20px 20px;
+    border: 5px solid #046599;
+  }
+  h1{
+    margin:  0;
+    padding: 20px  0;
+    color: #FFFF0F;
+    text-shadow: 5px 3px  .5px #E13C09 ;
+  }
+  img{
+    display: block;
+    margin: 0 auto;
+  }
+  .nameUser{
+    float: right;
+  }
+  .nameUser{
+      display: inline-flex;
+      border: 3px solid black;
+      font-family: 'Times New Roman', Times, serif;
+      clear: both;
+      color: blue;
+      font-size: 16px;
+      background-color: ;
+  }
