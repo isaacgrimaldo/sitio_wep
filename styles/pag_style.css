@@ -1,22 +1,6 @@
 
 
-html{
-    font-size: 10px;
-    font-family:'Josefin Sans', sans-serif; ;
-}
 
-h1 {
-    font-size: 60px;
-    text-align: center;
-  }
-  
-  p,
-  li {
-    font-size: 16px;    
-    line-height: 1.5;     /*ancho de la linea*/
-    letter-spacing: .85px;/*espacio entre palabras*/
-  }
- 
    /*
  
        *relleno(padding), el espacio alrededor del contenido (ej: alrededor del texto de un párrafo)
@@ -35,38 +19,101 @@ h1 {
        *display: selecciona el modo de visualización para el elemento (no te preocupes de esto por ahora)
        
     */
+html{
+  font-family: 'Josefin Sans', sans-serif;
+}
+ 
+body{
+  background-color: #08ABEC;
+}
+#encavezado,#temas,#contenido,#final{
+    border: 5px solid black;
+    margin: 10px;
+}
 
-  html{
-    background-color: #387DA8 ;
-  }
+#encavezado{
+    width: 340px;
+    height: 153px;
+    text-align: center;
+    background-image: url(https://vignette.wikia.nocookie.net/jump-force/images/8/84/Naruto_logo.png/revision/latest/scale-to-width-down/340?cb=20180717155234&path-prefix=es);
+    margin: auto auto;
+    font-size: 30px;
+    color: transparent;
+    /*text-shadow: #08ABEC 10px 5px 5px ;(este se encarag de las sombra de los textos)*/
+    box-shadow: #1E7294 20px 30px 45px ;
+    border-radius: 15px;
+    -webkit-transform:scaleX(2);
+    /*-webkit-transform: scale(1,2);(el primer valor cambia el tamaño de elemento en x, y el segundo en y*/
+    /*-webkit-transform: rotate(8deg); (rota elementos)*/ 
+}
+#temas{
+  width: 50%;
+  height: 60px;
+  margin-top: 70px ;
+  border-radius: 20px 0px 20px 0px;
+  background:-webkit-linear-gradient(bottom,yellow,#D16A09 );
+  box-shadow: 10px 10px 30px #D16A09;
+}
+li{
+  display: inline-flex;
+  font-size: 40px;
+  font-weight: bolder;
+  border: 4px solid black;
+  border-radius:0px 20px 0px 20px;
+  margin: 0px 20px;
+ 
+}
+li:hover{/*esta linea de :hover agrega una funcionalida al elemento cuando el raton pasa sobre el*/
+  -webkit-transform: rotate(8deg) scale(1.3);
+  -webkit-transition: -webkit-transform 1s ease 0.85ms;
+  
+}/* este codigo se encarga de la animacion de l navegaciom*/
 
-  body{
-    width: 800px;
-    height: auto;
-    margin: 30px auto;
-    background-color:#EA811F ;
-    padding: 0 20px 20px 20px;
-    border: 5px solid #046599;
-  }
-  h1{
-    margin:  0;
-    padding: 20px  0;
-    color: #FFFF0F;
-    text-shadow: 5px 3px  .5px #E13C09 ;
-  }
-  img{
-    display: block;
-    margin: 0 auto;
-  }
-  .nameUser{
-    float: right;
-  }
-  .nameUser{
-      display: inline-flex;
-      border: 3px solid black;
-      font-family: 'Times New Roman', Times, serif;
-      clear: both;
-      color: blue;
-      font-size: 16px;
-      background-color: red;
-  }
+#apartado{
+  width: 120px;
+  height: 870px;
+  float: left;
+  background: -webkit-repeating-linear-gradient(top, #43F5F8,#0874D2);
+  border-radius: 20px;
+  box-shadow:#060DCF 10px 5px  ;
+  border: .5px solid wheat;
+  font-size: 16px;
+  padding: 5px;
+ 
+}
+figure{
+  float: left;
+}
+figure img:hover{
+  padding: 5px;
+  background: -webkit-linear-gradient(bottom,#F8E42F,#1C1B11);
+  -webkit-transform: scale(1.02);
+}
+#contenido{
+  width: 100%;
+  height: 800px;
+  margin-left: 150px;
+  margin-top: 30px;
+  margin-right: 40px;
+  padding: 30px;
+  background:-webkit-linear-gradient(bottom, #F4831A 82%,#1B1108) ;
+  box-shadow: #040A9E 20px 12px 30px ;
+  color: white;
+  color: white;
+  border: 6px solid  wheat ;
+  border-radius: 30px 0px 30px 0px;
+  font-size: 20px;
+}
+
+#final{
+  width: 100%;
+  height: 120px;
+  clear: both;
+  font-size: 18px;
+  color: white;
+  border: 6px solid  wheat ;
+  border-radius: 15px;
+  background: black;
+  margin: 20px 0px;
+  padding: 40px;
+}
