@@ -18,21 +18,25 @@
         
        *display: selecciona el modo de visualización para el elemento (no te preocupes de esto por ahora)
        
-    */
+       */
+      
 html{
   font-family: 'Josefin Sans', sans-serif;
+   height: auto;
 }
  
 body{
   background-color: #08ABEC;
+   width: 1200px;
+   height: 1600pxs;
 }
 #encavezado,#temas,#contenido,#final{
-    border: 5px solid black;
+    border: 4px solid black;
     margin: 10px;
 }
 
 #encavezado{
-    width: 340px;
+    width: 27.5%;
     height: 153px;
     text-align: center;
     background-image: url(https://vignette.wikia.nocookie.net/jump-force/images/8/84/Naruto_logo.png/revision/latest/scale-to-width-down/340?cb=20180717155234&path-prefix=es);
@@ -50,17 +54,19 @@ body{
   width: 50%;
   height: 60px;
   margin-top: 70px ;
+  margin-bottom: 30px;
   border-radius: 20px 0px 20px 0px;
   background:-webkit-linear-gradient(bottom,yellow,#D16A09 );
   box-shadow: 10px 10px 30px #D16A09;
 }
 li{
+  width: auto;
   display: inline-flex;
   font-size: 40px;
   font-weight: bolder;
   border: 4px solid black;
   border-radius:0px 20px 0px 20px;
-  margin: 0px 20px;
+  margin-left: 30px;
  
 }
 li:hover{/*esta linea de :hover agrega una funcionalida al elemento cuando el raton pasa sobre el*/
@@ -70,7 +76,7 @@ li:hover{/*esta linea de :hover agrega una funcionalida al elemento cuando el ra
 }/* este codigo se encarga de la animacion de l navegaciom*/
 
 #apartado{
-  width: 120px;
+  width: 8%;
   height: 870px;
   float: left;
   background: -webkit-repeating-linear-gradient(top, #43F5F8,#0874D2);
@@ -90,12 +96,12 @@ figure img:hover{
   -webkit-transform: scale(1.02);
 }
 #contenido{
-  width: 100%;
+  width: 90%;
   height: 800px;
   margin-left: 150px;
   margin-top: 30px;
   margin-right: 40px;
-  padding: 30px;
+  padding: 15px;
   background:-webkit-linear-gradient(bottom, #F4831A 82%,#1B1108) ;
   box-shadow: #040A9E 20px 12px 30px ;
   color: white;
@@ -106,7 +112,7 @@ figure img:hover{
 }
 
 #final{
-  width: 100%;
+  widows: 100%;
   height: 120px;
   clear: both;
   font-size: 18px;
@@ -114,6 +120,9 @@ figure img:hover{
   border: 6px solid  wheat ;
   border-radius: 15px;
   background: black;
-  margin: 20px 0px;
-  padding: 40px;
+  margin-top:50px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px; 
+    padding: 40px;
 }
