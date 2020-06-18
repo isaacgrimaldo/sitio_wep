@@ -5,7 +5,7 @@ html{
 }
 
 body{
-    background: -webkit-linear-gradient(left, red 85%, black);
+    background: -webkit-linear-gradient(left, red , black);
     width: 1400px;
     height: 1400px;
 }
