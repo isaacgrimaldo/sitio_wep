@@ -13,7 +13,7 @@ window.onload = nav;(como usar los selectores de texto)*/
 
 
 function nav(){
-         let  pags = document.querySelectorAll("#temas li");
+         var  pags = document.querySelectorAll("#lista li");
 
             pags[0].addEventListener("click",function(){
                 window.open("peleas.html","blanck");
@@ -26,6 +26,11 @@ function nav(){
             pags[2].addEventListener("click",function(){
                 window.open("pag3.html","blanck");
             });
+            pags[3].addEventListener("click",function(){
+                window.open("registros.html","blanck");
+            });
+
+           
 }; 
 
 

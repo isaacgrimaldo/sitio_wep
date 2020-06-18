@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="registro">
+   <link rel="stylesheet" href="../sitio_wep/styles/stylesPagResg.css">
+   <link  href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet" type="text/css">
+    <title>resgrito.com</title>
+</head>
+<body>
+  <header>
+      <h1>REGISTRO PARA CUENTA</h1>
+  </header>
+   
+    <nav id="pags">
+        <ul>
+            <div  id="temas">
+            <li>Inicio</li>
+            <li>Peleas</li>
+            <li>Personajes</li>
+            <li>Aldeas</li>
+           </div>
+        </ul>
+    </nav>
+  
+    <aside id="info">
+      <h2>-Informacion</h2>
+
+       <p>
+        Los datos que se le pedirán pueden ser ficticios,  
+        solo es un practica de interacción con el usuario.
+       </p>
+     
+       <h2>-Beneficios</h2>
+        <p>Ninguno, aún.</p>
+    </aside>
+
+
+    <section id="contenido" >
+        <h2>Datos para registro</h2>
+        <form  method="get" name="registros" id="registros" > 
+           
+           
+           <p>Nombre</p> <input type="text" name="nombre" id="nombre" placeholder="Nombre" autofocus required >
+            
+           <p>Apellido</p> <input type="text" name="apellido"  id="apellido" placeholder="Apellido"  required >
+        
+           <p>user name</p> <input type="text" name="user" id="user" placeholder="Alias(max 8 caracteres)" required pattern="[a-zA-Z0-9]{8}"   >
+                 
+           <p>Correo</p> <input type="email" name="correo" id="correo" placeholder="correo" required>  
+           
+           <p>Contrseña (una MAYUSCULA y un NUMERO)</p> <input type="password" name="key" id="key" placeholder="8 caracteres minimo" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z0-9]).{8,}" required>
+           <button id="ver">Ver Contrseña</button>
+           
+           <p>Fecha de nacimiento</p> <input type="date" name="fNacimienti" id="fNacimienti" required>
+  
+           <datalist id="personajesN" >
+            <option value="Naruto" ></option>
+            <option value="Sakura" ></option>
+            <option value="Sasuke" ></option>
+           </datalist>
+
+           <p>Personaje favorito</p> <input type="text" name="personaje" id="personaje" list="personajesN" required>
+        
+    
+            <br><input type="submit" value="enviar" id="envio">
+        </form>
+    </section>
+   
+
+   <footer>
+    <p><small>la infomacion expuesta en la pagina tiene derechos de autor  asi que la pagina no es con fines de lucro puramente aprendisaje </small></p>
+    <p><address>informe alguna falta aqui: isaacgrimaldo432@gmail.com</address></p>  
+    <p>pagina wep vercion:1.2</p> <time datetime="2020/05/31"  pubdate="">fecha de a actualizacion 31/05/2020</time>
+   </footer>
+
+    <script type="text/javascript" src="../sitio_wep/scripts/registros.js"></script>
+</body>
+</html>

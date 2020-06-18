@@ -1,15 +1,16 @@
 
 html{
+
     font-family:'Josefin Sans', sans-serif;
 }
 
 body{
-    background: #D46D06;
-    width: 1200px;
+    background: -webkit-linear-gradient(left, rgb(175, 8, 8)  85%, black);
+    width: 1400px;
     height: 1400px;
 }
 
-#titulo,#margen,#contenido,#barra,#finalP{
+#titulo,#margen,#barra,#teclado,video,#finalP{
         border: 5px solid black; 
        
 }
@@ -17,40 +18,110 @@ body{
 
 #img1{
     border: 5px solid black;
-    width: 90%;
+    width: 66%;
     height: 80%;
     margin: 15px auto; 
     background-image: url(https://eventogenda.com/wp-content/uploads/2019/08/naruto-top10.png);  
     background-position:  center center;
+    -webkit-transform: scale(1.2,1);
     
 }
 #titulo{
     width: 60%;
     height: 25%;
-    margin: auto auto;
+    margin-bottom: 50px;
+    margin: 0px auto;
     background: -webkit-linear-gradient(top, #F6A212 90%,#0DA1CE);
-    box-shadow:#BAB5AF 22px 16px  20px ;
+    box-shadow:black 50px 25px  20px ;
+    border-radius: 10px;
 }
 #margen{
     width: 92%;
-    height: 650px;
-    margin: 30px  auto;    
+    height: 75%;
+    margin: 20px auto;
+   margin-top: 80px;
+   background:-webkit-linear-gradient(top,rgb(8, 107, 13),rgb(81, 9, 235)90%);
+   border-radius:10 px;
+}
+#controls{
+     color: transparent;
 }
 
-#contenido,#barra{
-    display: inline-flex;
-    margin:10px 10px  ;
-}
+
+
 #contenido{
-    width: 80%;
-    height: 60%;
-    margin: 10px 20px;
+     width: 90%;
+     height: 40%;
+     margin: 20px auto;
+}
+/* aqui se se le empieza a dar etilo a los controles*/
+
+#video{
+    width: 480px;
+    height: 380px;
+   margin: auto auto;
 }
 
-#finalP{
-     width: 100%;
-     margin-top: 10px ;
-     margin: auto;
-     height: 50px;
-     background: -webkit-repeating-radial-gradient( circle, black, white);
+    #v1{
+        width:480px;
+        -webkit-transform: scale(2,1);
+        border: 18px solid  black;
+        border-radius: 5px;
+        margin: auto auto;
+    }
+
+/*aqui te le quita el estilo a los controles*/
+
+
+#barra{
+    width: 85%;
+    height: 40%;
+    margin: 20px auto;
+    background: -webkit-linear-gradient(top,#13ADDC 85%, #0777D8);
+    border-radius: 15px;
 }
+#barra h1{
+    width: 20%;
+    height: 10%;
+    margin: auto auto;
+    text-align: center;
+    padding: 15px;
+    color:  red;
+    font-size: 30px;
+}
+#margem1{
+    width: 250px;
+    height: 200px;
+    float: left;
+
+}
+#img2{
+    float: left;   
+}
+#img2:hover{
+  -webkit-transform: scale(1.05,1.05);
+   padding: 10px;
+   background:-webkit-linear-gradient(top,rgb(8, 107, 13),rgb(81, 9, 235)90%);
+}
+#barra p{
+   font-size: 22px;
+   padding: 10px;
+   margin: 10px 10px; 
+   
+}
+#finalP{
+    widows: 100%;
+    height: 10%;
+    clear: both;
+    font-size: 18px;
+    color: white;
+    border: 6px solid  wheat ;
+    border-radius: 15px;
+    background: black;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px; 
+      padding: 40px;
+}
+

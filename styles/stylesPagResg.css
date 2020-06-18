@@ -1,0 +1,140 @@
+html{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    width:auto;
+     height:0px;
+     margin: 0px 0px ;
+     padding: 0px 0px;
+}
+section,aside,footer{
+    border: 5px solid black;
+}
+
+body{
+    width: 1000px;
+    height: 1200px;
+    background-color:#474747;
+    margin: auto 50px;
+}
+ 
+header{
+    width: 40%;
+    height: 4% ;
+    background-color: black;
+    color: white;
+    margin: auto auto;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px 5px;
+    border: 8px ridge orange;
+}
+header h1{
+    margin: auto auto;
+    padding: 5px 5px;
+}
+
+#pags{
+    width: 100%;
+    height: 5%;
+    margin-top: 5px;
+    margin-bottom: 60px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+#pags ul{
+    width: 95%;
+    height: 75%;
+    margin: 5px auto;
+    background-color:#b2bec3 ;
+}
+#temas{
+   
+    width: 55%;
+    height: 75%;
+    margin: 2px auto  ;
+    text-align: center;
+    
+}
+#temas li{
+    display: inline-flex;
+    margin: 10px 10px ;
+    font-size: 25px;
+    border: 4px solid black;
+    background: #727272;
+    color:white;
+
+}
+#temas li:hover{
+   -webkit-transform: scale(1.1,1.1);
+   box-shadow: 8px 5px black ;
+   text-shadow: 1px 3px 3px black ;
+}
+
+#info{
+    width: 15%;
+    height: 65%;
+    float: left;
+    padding: 5px 5px ;
+    background-color: #939393;
+    border-style: double;
+}
+#info p{
+    font-size: 22px; ;
+}
+
+#contenido{
+    width: 70%;
+    height: 65%;
+    margin-left: 220px;
+    margin-right:auto;
+    margin-bottom: 50px;
+    background-color: #606060;
+    padding: 10px 50px;
+    text-align: center;
+}
+#registros{
+    background: #787171 ;
+    border: 8px double rgb(149, 135, 135);
+    border-style: ridge;
+}
+#registros p{
+     font-size: 20px;
+     color: black;
+}
+#registros input{
+    border: 2px solid #474747 ;
+    border-radius: 4px;
+}
+#ver{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #295EEE;
+    border: 3px solid black;
+    color: white;
+}
+input:hover{
+ transform: scale(1.1,1.1);
+}
+#envio{
+    width:  20% ;
+    font-size: 20px;
+    color: red;
+    margin: 10px;
+    float: right;
+}
+
+footer{
+    width: 100%;
+  height: 10%;
+  clear: both;
+  font-size: 18px;
+  color: white;
+  border: 6px solid  wheat ;
+  border-radius: 15px;
+  background: black;
+  margin-top:50px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px; 
+    padding: 25px 15px;
+}
