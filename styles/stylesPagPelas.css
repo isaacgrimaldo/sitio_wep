@@ -20,12 +20,12 @@ body{
     border: 5px solid black;
     width: 66%;
     height: 80%;
-    margin: 15px auto; 
-    background-image: url(https://eventogenda.com/wp-content/uploads/2019/08/naruto-top10.png);  
-    background-position:  center center;
+    margin: 10px  auto auto ;
+    background-image: url(../styles/imagenes/new_Img.png);
+    background-position: center center;
     -webkit-transform: scale(1.2,1);
-    
 }
+
 #titulo{
     width: 60%;
     height: 25%;
