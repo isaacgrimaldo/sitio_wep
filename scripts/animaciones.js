@@ -80,7 +80,7 @@ function inicio2(){/*degradados*/
     };*/
 
     function inicio(){
-
+      
       
     };
 
