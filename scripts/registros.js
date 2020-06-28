@@ -56,7 +56,25 @@ function envio(){
     }
 };
 
+function navegacion(){
+    var pag = document.querySelectorAll(".nav");
+     pag[0].addEventListener("click",function(){
+          window.open("index.html","blanck")
+     },false);
+
+     pag[1].addEventListener("click",function(){
+        window.open("peleas.html","blanck")
+   },false);
+
+    pag[2].addEventListener("click",function(){
+        window.open("personajes.html","blanck")
+    },false);
+    pag[3].addEventListener("click",function(){
+        window.open("aldeas.html","blanck")
+    },false);
+}
 
 
 window.addEventListener("load", check,false);
 window.addEventListener("load",password,false);
+window.addEventListener("load",navegacion,false);
